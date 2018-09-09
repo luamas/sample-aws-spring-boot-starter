@@ -1,0 +1,12 @@
+aws:
+  enable: true
+  access-key-id: 'test'
+  secret-access-key-id: 'FlEa9Hn5Wlmi3yd1FqmlHUnpOecz7Q1r5lOY73zw'
+  s3:
+    enable: true
+    service-endpoint: http://127.0.0.1:9000
+    region: us-east-1
+    bucket-name: 'test'
+    default-time-to-live: 1h
+    is-aws: false
+    check-bucket-name-exist: false
